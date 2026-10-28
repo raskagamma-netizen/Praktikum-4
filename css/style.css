@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #777B7E;
+    padding: 12px 12px;
+}
+#header{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    padding: 20px 24px;
+}
+
+#header blockquote{
+    background-color: #777B7E;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gambar{
+    text-align: center;
+}
+
+.isi p:first-child:first-letter{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+.koleksi{
+    background-color:white;
+}
+
+img{
+    width: 20%;
+    border-radius: 10px;
+}
+
+.koleksi img{
+    padding: 10px;
+}
+
+.promo{
+    text-align: center;
+}
+
+.promo li{
+    display: inline-block;
+    background: black;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+del{
+    color: red;
+}
+
+strong{
+    color: red;
+}
+
+.promo span{
+    color: red;
+}
